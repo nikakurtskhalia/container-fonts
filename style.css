@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 1260px;
+    width: 100%;
+    background-color: aqua;
+    margin: 90px auto;
+    padding: 0 90px;
+    
+}
+.textwrapper{
+    display: inline-block;
+    width: 400px;
+   
+   
+}
+.red{
+    background-color: brown;
+   height: 300px;
+   padding-top: 30px;
+   font-size: 25px;
+}
