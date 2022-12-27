@@ -16,6 +16,7 @@
 .textwrapper{
     display: inline-block;
     width: 400px;
+    font-family: 'Rubik Vinyl';
    
    
 }
@@ -23,5 +24,7 @@
     background-color: brown;
    height: 300px;
    padding-top: 30px;
-   font-size: 25px;
+   font-size: 30px;
+   font-family: 'ALK Tommaso';
+  
 }
