@@ -1,4 +1,11 @@
-*{
+ 
+ a{
+    text-decoration: none;
+ }
+ ul{
+    list-style: none;
+ }
+ *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,22 +16,50 @@
     max-width: 1260px;
     width: 100%;
     background-color: aqua;
-    margin: 90px auto;
-    padding: 0 90px;
+    margin: 30px auto;
+    padding: 0 50px;
     
 }
 .textwrapper{
     display: inline-block;
     width: 400px;
     font-family: 'Rubik Vinyl';
+    padding-top: 34px;
    
    
 }
 .red{
     background-color: brown;
-   height: 300px;
+   height: 100px;
    padding-top: 30px;
    font-size: 30px;
    font-family: 'ALK Tommaso';
   
+}
+.container2{
+    font-family: 'Great Vibes';
+    font-size: 25px;
+}
+.navbar-li{
+    display: inline-block;
+    width: 150px;
+    font-size: 30px;
+}
+.navbar-li a {
+    color: rgb(34, 0, 128);
+}
+.head-blok{
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+}
+.chat{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    /* top: ; */
+    bottom: 0px;
+    right:0px ;
+    /* left: ; */
 }
